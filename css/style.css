@@ -15,6 +15,19 @@ ol {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 img {
   display: block;
 }
@@ -80,13 +93,15 @@ address {
 }
 
 .service-button {
+  display: block;
+  min-width: 169px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin-top: 48px;
+  margin: 48px auto 0;
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
@@ -104,17 +119,28 @@ address {
   gap: 24px;
 }
 
-.advantage-item {
+.advantages-item {
   width: calc((100% - 72px) / 4);
 }
 
-.advantages-list .list-subtitle,
-.advantages-list .list-title {
+.advantages-item-title,
+.advantages-item-subtitle {
   text-align: left;
 }
 
-.advantages-list .list-subtitle {
-  margin-top: 8px;
+.team-member-item-subtitle,
+.team-member-item-title {
+  text-align: center;
+}
+
+.team-member-item-title,
+.advantages-item-title,
+.portfolio-item-title {
+  margin-bottom: 8px;
+}
+
+.team-member-item-text {
+  padding: 32px 16px;
 }
 
 .our-team {
@@ -143,6 +169,10 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.logo {
+  margin-right: 76px;
 }
 
 .logo span {
@@ -178,10 +208,6 @@ address {
 
 .header-navigation {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1 1 auto;
-  max-width: 452px;
 }
 
 .header-wrapper {
@@ -197,9 +223,7 @@ address {
 
 .nav-list {
   display: flex;
-  flex: 1 1 auto;
-  max-width: 260px;
-  justify-content: space-between;
+  gap: 40px;
 }
 
 .title {
@@ -249,12 +273,17 @@ address {
 
 .footer {
   background-color: #2e2f42;
-  text-transform: capitalize
+  text-transform: capitalize;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
 .footer-text {
-  margin-top: 16px;
   max-width: 264px;
   color: #f4f4fd;
 }
