@@ -62,6 +62,17 @@ address {
   padding: 120px 0;
 }
 
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
 .service {
   background-color: #2e2f42;
   text-align: center;
@@ -93,7 +104,7 @@ address {
   gap: 24px;
 }
 
-.advantages-list li {
+.advantage-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -104,6 +115,23 @@ address {
 
 .advantages-list .list-subtitle {
   margin-top: 8px;
+}
+
+.our-team {
+  background-color: #F4F4FD
+}
+
+.team-members-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-member-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .logo,
@@ -185,14 +213,6 @@ address {
   max-width: 496px;
 }
 
-.our-team {
-  background-color: #F4F4FD
-}
-
-.team-member {
-  background-color: #fff;
-}
-
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -201,12 +221,16 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-top: 32px;
 }
 
 .list-subtitle {
   text-align: center;
   line-height: 1.5;
-  text-transform: capitalize
+  text-transform: capitalize;
+  margin-top: 8px;
+  ;
+  margin-bottom: 32px;
 }
 
 .footer {
