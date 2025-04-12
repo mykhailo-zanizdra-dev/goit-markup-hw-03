@@ -49,8 +49,7 @@ body p {
 
 
 .container {
-  max-width: 1128px;
-  /* 1158px */
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -126,6 +125,10 @@ address {
   align-items: center;
   flex: 1 1 auto;
   max-width: 452px;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
