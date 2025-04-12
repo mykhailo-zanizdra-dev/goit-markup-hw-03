@@ -235,8 +235,6 @@ address {
   margin-top: 8px;
 }
 
-.portfolio {}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -256,5 +254,7 @@ address {
 
 
 .footer-text {
+  margin-top: 16px;
+  max-width: 264px;
   color: #f4f4fd;
 }
