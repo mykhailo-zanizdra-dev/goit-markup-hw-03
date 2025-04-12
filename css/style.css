@@ -173,24 +173,15 @@ address {
 
 .logo {
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .logo span {
   color: #2e2f42;
 }
 
-.header-contacts {
-  display: flex;
-  flex: 1 1 auto;
-  max-width: 344px;
-}
-
 .contacts-list {
   display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
-
+  gap: 40px;
 }
 
 .contact-info {
@@ -209,6 +200,8 @@ address {
 
 .header-navigation {
   display: flex;
+  align-items: center;
+  padding: 24px 0;
 }
 
 .header-wrapper {
@@ -223,7 +216,6 @@ address {
 
 .nav-list {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
