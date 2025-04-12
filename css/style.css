@@ -58,6 +58,10 @@ address {
   font-style: normal;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .service {
   background-color: #2e2f42;
   text-align: center;
@@ -81,6 +85,25 @@ address {
 .service button:hover,
 .service button:focus {
   background-color: #404bbf;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.advantages-list li {
+  width: calc((100% - 72px) / 4);
+}
+
+.advantages-list .list-subtitle,
+.advantages-list .list-title {
+  text-align: left;
+}
+
+.advantages-list .list-subtitle {
+  margin-top: 8px;
 }
 
 .logo,
@@ -160,16 +183,6 @@ address {
   color: #fff;
   margin: 0 auto;
   max-width: 496px;
-}
-
-.section-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize
 }
 
 .our-team {
