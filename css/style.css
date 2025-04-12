@@ -201,7 +201,6 @@ address {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-wrapper {
@@ -217,6 +216,12 @@ address {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.logo,
+home-link,
+contact-info {
+  padding: 24px 0;
 }
 
 .title {
