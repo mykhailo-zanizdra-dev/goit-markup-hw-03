@@ -219,8 +219,8 @@ address {
 }
 
 .logo,
-home-link,
-contact-info {
+.home-link,
+.contact-info {
   padding: 24px 0;
 }
 
