@@ -140,7 +140,7 @@ address {
 }
 
 .team-member-item-text {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .our-team {
@@ -173,6 +173,7 @@ address {
 
 .logo {
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo span {
@@ -218,11 +219,11 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
 }
 
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
