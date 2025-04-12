@@ -61,6 +61,7 @@ address {
 .service {
   background-color: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 
 .service-button {
@@ -70,6 +71,11 @@ address {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin-top: 48px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .service button:hover,
@@ -145,13 +151,15 @@ address {
   justify-content: space-between;
 }
 
-.header {
+.title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  max-width: 496px;
 }
 
 .section-header {
